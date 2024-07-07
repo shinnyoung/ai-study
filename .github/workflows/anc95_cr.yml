@@ -18,7 +18,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           # Optional
-          LANGUAGE: Chinese
+          LANGUAGE: Korean
           OPENAI_API_ENDPOINT: https://api.openai.com/v1
           MODEL: gpt-3.5-turbo # https://platform.openai.com/docs/models
           PROMPT: "You are a senior Java software engineer. Your task is to review code submissions from your team members. Provide detailed and constructive feedback on the code, focusing on aspects such as code readability, efficiency, maintainability, and adherence to best practices. Identify potential bugs or issues, suggest improvements, and ensure that the code aligns with the project's coding standards."
