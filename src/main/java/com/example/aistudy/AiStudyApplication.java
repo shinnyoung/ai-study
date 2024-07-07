@@ -14,5 +14,12 @@ public class AiStudyApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		System.out.println("Hello World!");
+
+		int c = 0;
+		for(int i = 0 ; i < 100 ; i++){
+			System.out.println("i : " + i);
+			c += i;
+			System.out.println("c : " + c);
+		}
 	}
 }
