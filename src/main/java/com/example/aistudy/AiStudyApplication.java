@@ -18,7 +18,7 @@ public class AiStudyApplication implements CommandLineRunner {
 		String c = "";
 		for(int i = 0 ; i < 100 ; i++){
 			System.out.println("i : " + i);
-			c = c + Integer.toString(i);
+			c  = c + String.valueOf(i);
 			System.out.println("c : " + c);
 		}
 	}
