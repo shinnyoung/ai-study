@@ -15,10 +15,10 @@ public class AiStudyApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		System.out.println("Hello World!");
 
-		int c = 0;
+		String c = "";
 		for(int i = 0 ; i < 100 ; i++){
 			System.out.println("i : " + i);
-			c += i;
+			c  = c + String.valueOf(i);
 			System.out.println("c : " + c);
 		}
 	}
